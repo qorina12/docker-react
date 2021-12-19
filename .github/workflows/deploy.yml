@@ -106,7 +106,6 @@ jobs:
           key: ${{ secrets.OCI_KEY_FILE }}
           source: "docker-compose.yml"
           target: "./"
-
       - name: 'Running Docker Compose'
         uses: appleboy/ssh-action@master
         with:
