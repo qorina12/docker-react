@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: qorina12/hello-react:latest
+    image: qorina07/hello-react:latest
     container_name: web
     restart: unless-stopped
     ports:
